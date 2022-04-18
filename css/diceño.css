@@ -1,12 +1,13 @@
 *{
   font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+text-align: center;
 }
 body{
   font-size: 15px;
   display: grid;
   align-content: center;
   justify-items: center;
-  background: url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -77,9 +78,7 @@ section{
 }
 
 section img {
-  padding: 2%;
-  margin: 0;
-  border-radius: 10%;
+
   height: auto;
   width: 30%;
 }
@@ -152,20 +151,19 @@ border-radius:5px;
 
 .boton{
     text-align: center;
-    height: 3em;
-    margin: 1em 0;
+    background: #D31024;
+    color: white;
 }
 
 .boton input{
-    height: 80%;
-    width: 80%;
-    color: linear-gradient(135deg, #71b7e6, #efca6e);
+    height:32px;
+    width: 215px;
+    font-size: 14px;
+
 }
-.boton input:hover{
-    height: 80%;
-    width: 80%;
-      background-color: #efca6e;
-      color: #12455f;
+.boton:hover{
+    background: darkred;
+    color: white;
 }
 
 .boton input:active{
@@ -177,16 +175,16 @@ border-radius:5px;
   padding: 20px;
   align-items: center;
   border-radius: 20px;
-  display: inline-block;
   height: max-content;
-  box-shadow: 10px 5px 5px;
+  display: contents;
 }
 .form form {
   padding: inherit;
+  display: inline-grid;
 }
 
 input{
-  width: -moz-available;
-  height: 20px;
+  width: 215px;
+  height: 32px;
   margin: 5px;
 }

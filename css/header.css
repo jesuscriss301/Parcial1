@@ -13,11 +13,11 @@
   color: #efca6e;
 }
 .color2 {
-  background-color:  #12455f;
-  color: #efca6e;
+  background-color: white;
+  color: #D31024;
 }
 .color2 span{
-  color: #f8efcf;
+  color:darkred;
 }
 .color3 {
   background-color: #c5690f;
@@ -28,11 +28,11 @@
 }
 
 .color4 {
-  background-color: #efca6e;
-  color: #12455f;
+  background-color:  #D31024;
+  color: white;
 }
 .color4 span{
-  color:#121819;
+  color:lightgray;
 }
 .color5 {
   background-color: #f8efcf;
