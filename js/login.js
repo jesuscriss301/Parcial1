@@ -38,7 +38,7 @@ function loginFunc(e)
 
 
 if(localStorage.getItem("user")!=null) {
-  window.location.href="dashboard.html";
+  window.location.href="html/notas.html";
 }
 
 
@@ -50,7 +50,7 @@ document.getElementById("ingresar").onclick = function () {
 
 
     var urllogin = 'https://api-parcial.crangarita.repl.co/login';
-    var data = {código: username, clave: clave};
+    var data = {codigo: username, clave: clave};
 
     fetch(urllogin, {
       method: 'POST', // or 'PUT'
